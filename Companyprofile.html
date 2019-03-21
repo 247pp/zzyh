@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./js/public.js"></script>
+    <link rel="stylesheet" href="./css/index.css/css.css">
+    <script src="./js/jquery-1.11.3.min.js"></script>
+    <title>公司简介</title>
+</head>
+
+<body>
+    <div class="profile">
+        <div style="width:100%;height:2.5rem;background: #fff;margin-bottom: .3rem;"></div>
+        <header>
+            <img src="./img/logo.png" alt="">
+            <div class="search">
+                <input type="search" />
+                <button>搜素</button>
+            </div>
+        </header>
+        <div class="banner"><img src="./img/3.jpeg" alt=""></div>
+        <div class="list">
+            <a href="javascript:;" class="one select dian">
+                <li>企业简介</li>
+            </a>
+            <a href="javascript:;" class="two dian">
+                <li>企业文化</li>
+            </a>
+            <a href="javascript:;" class="three dian">
+                <li>团队风采</li>
+            </a>
+        </div>
+        <div class="text">
+            <div class="one-text list-c">
+                <span>企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介</span>
+                <img src="./img/4.jpeg" alt="">
+                <span>企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介</span>
+                <img src="./img/4.jpeg" alt="">
+                <span>企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介企业简介</span>
+                <img src="./img/4.jpeg" alt="">
+            
+            </div>
+            <div class="two-text list-c">
+                <div class="press">
+                    <h5>公司口号：</h5>
+                    <span>用你所有换你所需</span>
+                </div>
+                <div class="press">
+                    <h5>公司口号：</h5>
+                    <span>用你所有换你所需</span>
+                </div>
+                <div class="press">
+                    <h5>公司口号：</h5>
+                    <span>用你所有换你所需</span>
+                </div>
+            </div>
+            <div class="three-text list-c">
+                <dl>
+                    <dt><img src="./img/1.jpg" alt=""></dt>
+                    <dd>行政部——孙喜雨</dd>
+                </dl>
+                <dl>
+                    <dt><img src="./img/1.jpg" alt=""></dt>
+                    <dd>行政部——孙喜雨</dd>
+                </dl>
+                <dl>
+                    <dt><img src="./img/1.jpg" alt=""></dt>
+                    <dd>行政部——孙喜雨</dd>
+                </dl>
+                <dl>
+                    <dt><img src="./img/1.jpg" alt=""></dt>
+                    <dd>行政部——孙喜雨</dd>
+                </dl>
+            </div>
+            <div class="information">
+                <h6>众寅易货</h6>
+                <h6>客服电话：xxxxxxxxxxxx   招商电话：13137771391</h6>
+                <h6>地址：南阳市卧龙区滨河西路与卧龙路交叉口时令电器生活广场</h6>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    $('.list a').click(function () {
+        var index = $(this).index();
+        $('.list-c').hide();
+        $('.dian').removeClass('select');
+        $(this).addClass('select');
+        $('.list-c').eq(index).show();
+    })
+</script>
+</html>

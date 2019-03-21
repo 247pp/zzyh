@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>众寅易货</title>
+    <link rel="stylesheet" href="./css/index.css/css.css">
+    <script src="./js/public.js"></script>
+    <link rel="stylesheet" href="./css/swipe.css">
+    <script src="./js/swipe.js"></script>
+    <script src="./js/jquery-1.11.3.min.js"></script>
+    <link rel="stylesheet" href="./css/footer.css">
+</head>
+
+<body>
+    <div id="zyyh">
+        <div style="width:100%;height:2.5rem;background: #fff;margin-bottom: .3rem;"></div>
+        <header>
+            <img src="./img/logo.png" alt="">
+            <div class="search">
+                <input type="search" class="searchInput" />
+                <button class="searchBtn">搜索</button>
+            </div>
+        </header>
+        <div class="banner swiper-container" id="m_home_banner">
+            <ul class="swiper-wrapper" id="banner">
+                <li class="swiper-slide"><a href="#"><img src="./img/1.jpg" /></a></li>
+                <li class="swiper-slide"><a href="#"><img src="./img/2.jpg" /></a></li>
+                <li class="swiper-slide"><a href="#"><img src="./img/3.jpeg" /></a></li>
+                <li class="swiper-slide"><a href="#"><img src="./img/4.jpeg" /></a></li>
+            </ul>
+            <div class="swiper-pagination banner-pagination"></div>
+        </div>
+        <div class="icon">
+            <a href="./Companyprofile.html">
+                <img src="./img/icon1.jpg" alt="">
+                <span>公司简介</span>
+            </a>
+            <a href="./news.html">
+                <img src="./img/icon2.jpg" alt="">
+                <span>新闻动态</span>
+            </a>
+            <a href="./process.html">
+                <img src="./img/icon3.jpg" alt="">
+                <span>易货流程</span>
+            </a>
+            <a href="./contact.html">
+                <img src="./img/icon4.png" alt="">
+                <span>联系我们</span>
+            </a>
+        </div>
+        <div class="hot">
+            <span>热门商品</span>
+            <img src="./img/hot_icon.png" alt="">
+        </div>
+        <section>
+            <div id="center">
+
+            </div>
+        </section>
+        <div class="information">
+                <h6>众寅易货</h6>
+                <h6>客服电话：xxxxxxxxxxxx   招商电话：13137771391</h6>
+                <h6>地址：南阳市卧龙区滨河西路与卧龙路交叉口时令电器生活广场</h6>
+        </div>
+        <div style="height:3rem;width:100%"></div>
+        <footer>
+            <a href="./index.html" class="footer active">
+                <img src="./img/1.jpg"/><p>首页</p>
+            </a>
+            <a href="./barter.html" class="footer">
+                <img src="img/2.jpg"/><p>易货商品</p>
+            </a>
+            <a href="./want.html" class="footer">
+                <img src="img/3.jpeg"/><p>我要易货</p>
+            </a>
+            <a href="./alliance.html" class="footer">
+                <img src="img/4.jpeg"/><p>加盟申请</p>
+            </a>
+        </footer>
+    </div>
+</body>
+
+<script>
+        var data = []
+        function train(res) {
+            data = res.orderData
+            for(var i = 0;i< data.length; i++){
+                center.innerHTML += `
+                    <div class="commodity" orderid=${data[i].optionKey}>
+                        <img src="${data[i].img}">
+                        <h5>${data[i].name}</h5>
+                        <div class="price">
+                            ${data[i].price}
+                        </div>
+                    </div>
+                `
+           }
+        }
+        $('.searchBtn').on('click', function () {
+            let arr = []
+            center.innerHTML = ''
+            let searchVal = $('.searchInput').val()
+            if (searchVal) {
+                data.forEach(item => {
+                    if (item.name.includes(searchVal)) {
+                        arr.push(item)
+                    }
+                })
+            } else {
+                arr = data
+            }
+            if (!arr.length) {
+                center.innerHTML += `<span>查询暂无数据！</span>`
+            }
+            arr.forEach(item => {
+                center.innerHTML += `
+                <div class="commodity" orderid=${item.optionKey}>
+                    <img src="${item.img}">
+                    <h5>${item.name}</h5>
+                    <div class="price">
+                        ${item.price}
+                    </div>
+                </div>
+            `
+            })
+        })
+        $(document).on('click', '.commodity', function () {
+            console.log($(this))
+            window.location.href = `./details.html?orderid=` + $(this).attr('orderid');
+        })
+
+</script>
+<script src='list.json?cb=train'></script>
+<script>
+        $('.active').css('backgroundColor', '#eee')
+        $('.footer').click(function () {
+            $('.footer').eq($(this).index()).css({'backgroundColor': '#eee','color':'#666'}).siblings('.footer').css({'backgroundColor':'#fff','color':'#000'})
+        })
+</script>
+<script>
+    var banner = new Swiper(".banner", {
+        speed: 400,
+        autoplay: 5000,
+        autoplaydisableoninteraction: false,
+        loop: true,
+        pagination: '.banner-pagination',
+        paginationClickable: true
+    })
+</script>
+
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>商品详情</title>
+        <link rel="stylesheet" href="./css/index.css/css.css">
+        <script src="./js/public.js"></script>
+        <script src="./js/jquery-1.11.3.min.js"></script>
+        <link rel="stylesheet" href="./css/footer.css">
+    </head>
+<body>
+    <div class="details">
+        <div class="xq">
+            <div class="detailDom">
+                <!--<img src="./img/2.jpg" alt="">-->
+                <!--<b>飞天不老</b>-->
+                <!--<div class="xq-c">-->
+                    <!--<span>易货价格：2222元/箱</span>-->
+                    <!--<span>易货地点：南阳</span>-->
+                <!--</div>-->
+                <!--<img src="./img/3.jpeg" alt="">-->
+                <!--<img src="./img/4.jpeg" alt="">-->
+            </div>
+            <button id="back">返回</button>
+        </div>
+        <footer>
+            <a href="./index.html" class="footer">
+                <img src="./img/1.jpg"/><p>首页</p>
+            </a>
+            <a href="./barter.html" class="footer">
+                <img src="img/2.jpg"/><p>易货商品</p>
+            </a>
+            <a href="./want.html" class="footer">
+                <img src="img/3.jpeg"/><p>我要易货</p>
+            </a>
+            <a href="./alliance.html" class="footer">
+                <img src="img/4.jpeg"/><p>加盟申请</p>
+            </a>
+        </footer>
+    </div>
+</body>
+<script>
+        $('.active').css('backgroundColor', '#eee')
+        $('.footer').click(function () {
+            $('.footer').eq($(this).index()).css({'backgroundColor': '#eee','color':'#666'}).siblings('.footer').css({'backgroundColor':'#fff','color':'#000'})
+        })
+
+            $(document).on('click', '#back', function () {
+                window.location.href = "./index.html";
+            })
+        function GetRequest() {
+            var url = location.search; //获取url中"?"符后的字串
+            var theRequest = new Object();
+            if (url.indexOf("?") != -1) {
+                var str = url.substr(1);
+                strs = str.split("&");
+                for (var i = 0; i < strs.length; i++) {
+                    theRequest[strs[i].split("=")[0]] = unescape(strs[i].split("=")[1]);
+                }
+            }
+            return theRequest;
+        }
+        function train (res) {
+            console.log(res)
+            let paramsUrl = GetRequest()
+            res.orderData.forEach(item => {
+                if (item.optionKey === paramsUrl.orderid) {
+                    $('.detailDom').append(` <img src=${item.img} alt="">
+                <b>${item.name}</b>
+                <div class="xq-c">
+                    <span>易货价格：${item.price}</span>
+                    <span>易货地点：${item.place}</span>
+                </div>
+                <img src=${item.img} alt="">
+                <img src=${item.img} alt="">`)
+                }
+            })
+        }
+    </script>
+    <script src="list.json?cb=trian"></script>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我要易货</title>
+    <link rel="stylesheet" href="./css/index.css/css.css">
+    <script src="./js/public.js"></script>
+    <script src="./js/jquery-1.11.3.min.js"></script>
+    <link rel="stylesheet" href="./css/footer.css">
+    <script src="./js/address.js"></script>
+</head>
+
+<body>
+    <div class="want">
+        <div style="width:100%;height:2.5rem;background: #fff;margin-bottom: .3rem;"></div>
+        <header>
+            <img src="./img/logo.png" alt="">
+            <div class="search">
+                <input type="search" />
+                <button>搜素</button>
+            </div>
+        </header>
+        <div class="banner"><img src="./img/4.jpeg" alt=""></div>
+        <section>
+            <div class="oipt">
+                <span>联系人姓名：</span>
+                <input type="text">
+            </div>
+            <div class="oipt">
+                <span>联系人电话：</span>
+                <input type="text">
+            </div>
+            <div class="oipt">
+                <span>公司名称：</span>
+                <input type="text">
+            </div>
+            <div class="oipt">
+                <span>我拥有的产品：</span>
+                <input type="text">
+            </div>
+            <div class="oipt">
+                <span>我想易的产品：</span>
+                <input type="text">
+            </div>
+            <div class="oipt">
+                <span>邮箱：</span>
+                <input type="text">
+            </div>
+            <div class="oipt">
+                <span>省市区：</span>
+                <select class="form-control" id="cmbArea" name="cmbArea"></select>
+                <select class="form-control" id="cmbCity" name="cmbCity"></select>
+                <select class="form-control" id="cmbProvince" name="cmbProvince"></select>       
+            </div>
+            <div class="oipt">
+                <span>街道：</span>
+                <input type="text">
+            </div>
+            <input type="submit" value="提交" id="sub">
+        </section>
+        <!-- <div class="information">
+            <h6>众寅易货</h6>
+            <h6>客服电话：xxxxxxxxxxxx 招商电话：13137771391</h6>
+            <h6>地址：南阳市卧龙区滨河西路与卧龙路交叉口时令电器生活广场</h6>
+        </div> -->
+        <footer>
+            <a href="./index.html" class="footer">
+                <img src="./img/1.jpg" />
+                <p>首页</p>
+            </a>
+            <a href="./barter.html" class="footer">
+                <img src="img/2.jpg" />
+                <p>易货商品</p>
+            </a>
+            <a href="./want.html" class="footer active">
+                <img src="img/3.jpeg" />
+                <p>我要易货</p>
+            </a>
+            <a href="./alliance.html" class="footer">
+                <img src="img/4.jpeg" />
+                <p>加盟申请</p>
+            </a>
+        </footer>
+    </div>
+</body>
+<script>
+    $('.active').css('backgroundColor', '#eee')
+    $('.footer').click(function () {
+        $('.footer').eq($(this).index()).css({ 'backgroundColor': '#eee', 'color': '#666' }).siblings('.footer').css({ 'backgroundColor': '#fff', 'color': '#000' })
+    })
+</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        addressInit('cmbProvince', 'cmbCity', 'cmbArea');
+    });
+</script>
+
+
+</html>

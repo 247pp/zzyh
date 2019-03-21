@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>易货流程</title>
+    <link rel="stylesheet" href="./css/index.css/css.css">
+    <script src="./js/public.js"></script>
+    <script src="./js/jquery-1.11.3.min.js"></script>
+    <link rel="stylesheet" href="./css/footer.css">
+</head>
+
+<body>
+    <div class="process">
+        <div style="width:100%;height:2.5rem;background: #fff;margin-bottom: .3rem;"></div>
+        <header>
+            <img src="./img/logo.png" alt="">
+            <div class="search">
+                <input type="search" />
+                <button>搜素</button>
+            </div>
+        </header>
+        <div class="banner"><img src="./img/3.jpeg" alt=""></div>
+        <section>
+            <h4>易货流程:</h4>
+            <span>第一步：了解众寅易货，寻找你需要的客户</span>
+            <span>第一步：了解众寅易货，寻找你需要的客户大V是干啥让大哥</span>
+            <span>第一步：了解众寅易货，寻找你需要的客户</span>
+            <span>第一步：了解众寅易货，寻找你需要的客户 如果VR感染过任务热狗个人股</span>
+            <h4>收费标准：</h4>
+            <div class="prices">
+                <p>10万</p><p>5800</p>
+                <p>20万</p><p>11300</p>
+                <p>30万</p><p>16800</p>
+                <p>50万</p><p>27800</p>
+                <p>100万</p><p>54100</p>
+                <p>150万</p><p>79800</p>
+                <p>300万</p><p>148000</p>
+                <p>500万</p><p>23万</p>
+                <p>1000万</p><p>40万</p>
+                <p>2000万</p><p>75万</p>
+            </div>
+        </section>
+        <div class="information">
+                <h6>众寅易货</h6>
+                <h6>客服电话：xxxxxxxxxxxx   招商电话：13137771391</h6>
+                <h6>地址：南阳市卧龙区滨河西路与卧龙路交叉口时令电器生活广场</h6>
+        </div>
+        <footer>
+                <a href="./index.html" class="footer">
+                    <img src="./img/1.jpg"/><p>首页</p>
+                </a>
+                <a href="./barter.html" class="footer">
+                    <img src="img/2.jpg"/><p>易货商品</p>
+                </a>
+                <a href="./want.html" class="footer">
+                    <img src="img/3.jpeg"/><p>我要易货</p>
+                </a>
+                <a href="./alliance.html" class="footer">
+                    <img src="img/4.jpeg"/><p>加盟申请</p>
+                </a>
+            </footer>
+    </div>
+</body>
+<script>
+        $('.active').css('backgroundColor', '#eee')
+        $('.footer').click(function () {
+            $('.footer').eq($(this).index()).css({'backgroundColor': '#eee','color':'#666'}).siblings('.footer').css({'backgroundColor':'#fff','color':'#000'})
+        })
+</script>
+</html>

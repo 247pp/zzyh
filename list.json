@@ -1,0 +1,27 @@
+train({
+    "orderData": [
+        {    "optionKey":"1",
+            "img":"./img/1.jpg",
+            "name":"赊店元青花",
+            "price":"30元/箱",
+            "place": "北京"
+        },
+        {    "optionKey":"2",
+            "img":"./img/2.jpg",
+            "name":"飞天不老",
+            "price":"30",
+            "place": "深圳"
+        },  {    "optionKey":"3",
+            "img":"./img/1.jpg",
+            "name":"开路先锋",
+            "price":"30",
+            "place": "河南"
+        },
+        {    "optionKey":"4",
+            "img":"./img/1.jpg",
+            "name":"天关",
+            "price":"30",
+            "place": "河北"
+        }
+    ]
+})
