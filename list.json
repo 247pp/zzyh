@@ -1,27 +1,51 @@
 train({
     "orderData": [
         {    "optionKey":"1",
-            "img":"./img/1.jpg",
-            "name":"赊店元青花",
+            "img":"./img/img/2.jpg",
+            "name":"长生普君享",
             "price":"30元/箱",
-            "place": "北京"
+            "place": "南阳"
         },
         {    "optionKey":"2",
-            "img":"./img/2.jpg",
-            "name":"飞天不老",
-            "price":"30",
-            "place": "深圳"
-        },  {    "optionKey":"3",
-            "img":"./img/1.jpg",
-            "name":"开路先锋",
-            "price":"30",
-            "place": "河南"
+            "img":"./img/img/7.jpg",
+            "name":"窖龄酒",
+            "price":"30元/箱",
+            "place": "南阳"
+        },{    "optionKey":"3",
+            "img":"./img/img/8.jpg",
+            "name":"厚德天下",
+            "price":"30元/箱",
+            "place": "南阳"
         },
         {    "optionKey":"4",
-            "img":"./img/1.jpg",
-            "name":"天关",
-            "price":"30",
-            "place": "河北"
+            "img":"./img/img/9.jpg",
+            "name":"长城干红葡萄酒2",
+            "price":"30元/箱",
+            "place": "南阳"
+        },
+        {    "optionKey":"5",
+            "img":"./img/img/17.jpg",
+            "name":"半球压力锅",
+            "price":"30元/箱",
+            "place": "南阳"
+        },
+        {    "optionKey":"6",
+            "img":"./img/img/3.jpg",
+            "name":"净水器",
+            "price":"30元/箱",
+            "place": "南阳"
+        },
+        {    "optionKey":"7",
+            "img":"./img/img/6.jpg",
+            "name":"三国印象",
+            "price":"30元/箱",
+            "place": "南阳"
+        },
+        {    "optionKey":"8",
+            "img":"./img/img/10.jpg",
+            "name":"吴家酒",
+            "price":"30元/箱",
+            "place": "南阳"
         }
     ]
 })

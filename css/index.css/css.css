@@ -17,7 +17,7 @@ html, body {
   #zyyh header {
     width: 100%;
     height: 2.5rem;
-    background: rgba(255, 255, 255, 0.36);
+    background: #fff;
     position: fixed;
     top: 0;
     left: 0;
@@ -157,7 +157,7 @@ html, body {
   .profile header {
     width: 100%;
     height: 2.5rem;
-    background: rgba(255, 255, 255, 0.36);
+    background: #fff;
     position: fixed;
     top: 0;
     left: 0;
@@ -165,34 +165,20 @@ html, body {
     justify-content: baseline;
     align-items: center;
     z-index: 99; }
-    .profile header img {
-      width: 7rem;
-      height: 1.8rem;
+    .profile header a {
+      width: 0.8rem;
+      height: 1.2rem;
+      display: block;
       margin-left: 1rem;
       margin-right: 1.5rem; }
-    .profile header .search {
-      width: 450%;
-      height: 2.5rem;
-      display: flex;
-      align-items: center; }
-      .profile header .search input {
-        width: 70%;
-        height: 1.4rem;
-        border: #f00 1px solid;
-        outline: none;
-        display: block;
-        border-radius: 6px 0 0 6px;
-        text-indent: .4rem;
-        background: rgba(255, 255, 255, 0.36); }
-      .profile header .search button {
-        width: 20%;
-        height: 1.4rem;
-        border: none;
-        outline: none;
-        background: red;
-        display: block;
-        color: #fff;
-        border-radius: 0 6px 6px 0; }
+      .profile header a img {
+        width: 100%;
+        height: 100%; }
+    .profile header span {
+      display: block;
+      font-size: 1.15rem;
+      text-align: center;
+      margin-left: 20%; }
   .profile .banner {
     width: 100%;
     height: 11.25rem; }
@@ -276,7 +262,7 @@ html, body {
           width: 100%;
           height: auto;
           font-size: 0.8rem;
-          margin: 0.25rem 0 0.25rem 0; }
+          margin: 0.5rem 0 0.5rem 0; }
     .profile .text .three-text {
       width: 100%;
       height: auto;
@@ -293,7 +279,7 @@ html, body {
         border-bottom: 0.05rem solid #eee; }
         .profile .text .three-text dl dt {
           width: 100%;
-          height: 4.5rem; }
+          height: 5.5rem; }
           .profile .text .three-text dl dt img {
             width: 100%;
             height: 100%; }
@@ -312,7 +298,7 @@ html, body {
   .contach header {
     width: 100%;
     height: 2.5rem;
-    background: rgba(255, 255, 255, 0.36);
+    background: #fff;
     position: fixed;
     top: 0;
     left: 0;
@@ -320,34 +306,20 @@ html, body {
     justify-content: baseline;
     align-items: center;
     z-index: 99; }
-    .contach header img {
-      width: 7rem;
-      height: 1.8rem;
+    .contach header a {
+      width: 0.8rem;
+      height: 1.2rem;
+      display: block;
       margin-left: 1rem;
       margin-right: 1.5rem; }
-    .contach header .search {
-      width: 450%;
-      height: 2.5rem;
-      display: flex;
-      align-items: center; }
-      .contach header .search input {
-        width: 70%;
-        height: 1.4rem;
-        border: #f00 1px solid;
-        outline: none;
-        display: block;
-        border-radius: 6px 0 0 6px;
-        text-indent: .4rem;
-        background: rgba(255, 255, 255, 0.36); }
-      .contach header .search button {
-        width: 20%;
-        height: 1.4rem;
-        border: none;
-        outline: none;
-        background: red;
-        display: block;
-        color: #fff;
-        border-radius: 0 6px 6px 0; }
+      .contach header a img {
+        width: 100%;
+        height: 100%; }
+    .contach header span {
+      display: block;
+      font-size: 1.15rem;
+      text-align: center;
+      margin-left: 20%; }
   .contach .banner {
     width: 100%;
     height: 10rem; }
@@ -388,7 +360,7 @@ html, body {
   .barter header {
     width: 100%;
     height: 2.5rem;
-    background: rgba(255, 255, 255, 0.36);
+    background: #fff;
     position: fixed;
     top: 0;
     left: 0;
@@ -490,7 +462,7 @@ html, body {
   .want header {
     width: 100%;
     height: 2.5rem;
-    background: rgba(255, 255, 255, 0.36);
+    background: #fff;
     position: fixed;
     top: 0;
     left: 0;
@@ -498,34 +470,20 @@ html, body {
     justify-content: baseline;
     align-items: center;
     z-index: 99; }
-    .want header img {
-      width: 7rem;
-      height: 1.8rem;
+    .want header a {
+      width: 0.8rem;
+      height: 1.2rem;
+      display: block;
       margin-left: 1rem;
       margin-right: 1.5rem; }
-    .want header .search {
-      width: 450%;
-      height: 2.5rem;
-      display: flex;
-      align-items: center; }
-      .want header .search input {
-        width: 70%;
-        height: 1.4rem;
-        border: #f00 1px solid;
-        outline: none;
-        display: block;
-        border-radius: 6px 0 0 6px;
-        text-indent: .4rem;
-        background: rgba(255, 255, 255, 0.36); }
-      .want header .search button {
-        width: 20%;
-        height: 1.4rem;
-        border: none;
-        outline: none;
-        background: red;
-        display: block;
-        color: #fff;
-        border-radius: 0 6px 6px 0; }
+      .want header a img {
+        width: 100%;
+        height: 100%; }
+    .want header span {
+      display: block;
+      font-size: 1.15rem;
+      text-align: center;
+      margin-left: 20%; }
   .want .banner {
     width: 100%;
     height: 10rem; }
@@ -577,7 +535,7 @@ html, body {
   .alliance header {
     width: 100%;
     height: 2.5rem;
-    background: rgba(255, 255, 255, 0.36);
+    background: #fff;
     position: fixed;
     top: 0;
     left: 0;
@@ -585,34 +543,20 @@ html, body {
     justify-content: baseline;
     align-items: center;
     z-index: 99; }
-    .alliance header img {
-      width: 7rem;
-      height: 1.8rem;
+    .alliance header a {
+      width: 0.8rem;
+      height: 1.2rem;
+      display: block;
       margin-left: 1rem;
       margin-right: 1.5rem; }
-    .alliance header .search {
-      width: 450%;
-      height: 2.5rem;
-      display: flex;
-      align-items: center; }
-      .alliance header .search input {
-        width: 70%;
-        height: 1.4rem;
-        border: #f00 1px solid;
-        outline: none;
-        display: block;
-        border-radius: 6px 0 0 6px;
-        text-indent: .4rem;
-        background: rgba(255, 255, 255, 0.36); }
-      .alliance header .search button {
-        width: 20%;
-        height: 1.4rem;
-        border: none;
-        outline: none;
-        background: red;
-        display: block;
-        color: #fff;
-        border-radius: 0 6px 6px 0; }
+      .alliance header a img {
+        width: 100%;
+        height: 100%; }
+    .alliance header span {
+      display: block;
+      font-size: 1.15rem;
+      text-align: center;
+      margin-left: 20%; }
   .alliance .banner {
     width: 100%;
     height: 10rem; }
@@ -666,7 +610,7 @@ html, body {
   .details header {
     width: 100%;
     height: 2.5rem;
-    background: rgba(255, 255, 255, 0.36);
+    background: #fff;
     position: fixed;
     top: 0;
     left: 0;
@@ -674,34 +618,20 @@ html, body {
     justify-content: baseline;
     align-items: center;
     z-index: 99; }
-    .details header img {
-      width: 7rem;
-      height: 1.8rem;
+    .details header a {
+      width: 0.8rem;
+      height: 1.2rem;
+      display: block;
       margin-left: 1rem;
       margin-right: 1.5rem; }
-    .details header .search {
-      width: 450%;
-      height: 2.5rem;
-      display: flex;
-      align-items: center; }
-      .details header .search input {
-        width: 70%;
-        height: 1.4rem;
-        border: #f00 1px solid;
-        outline: none;
-        display: block;
-        border-radius: 6px 0 0 6px;
-        text-indent: .4rem;
-        background: rgba(255, 255, 255, 0.36); }
-      .details header .search button {
-        width: 20%;
-        height: 1.4rem;
-        border: none;
-        outline: none;
-        background: red;
-        display: block;
-        color: #fff;
-        border-radius: 0 6px 6px 0; }
+      .details header a img {
+        width: 100%;
+        height: 100%; }
+    .details header span {
+      display: block;
+      font-size: 1.15rem;
+      text-align: center;
+      margin-left: 20%; }
   .details .xq {
     width: 100%;
     height: auto;
@@ -731,16 +661,6 @@ html, body {
       .details .xq .xq-c span {
         line-height: 2.5rem;
         margin-left: 1.5rem; }
-    .details .xq button {
-      width: 5rem;
-      height: 1.75rem;
-      outline: none;
-      border: none;
-      border-radius: 6px;
-      margin-top: 0.5rem;
-      color: #fff;
-      margin-left: 70%;
-      background: #5bb3b3; }
 
 .process {
   width: 100%;
@@ -750,7 +670,7 @@ html, body {
   .process header {
     width: 100%;
     height: 2.5rem;
-    background: rgba(255, 255, 255, 0.36);
+    background: #fff;
     position: fixed;
     top: 0;
     left: 0;
@@ -758,34 +678,20 @@ html, body {
     justify-content: baseline;
     align-items: center;
     z-index: 99; }
-    .process header img {
-      width: 7rem;
-      height: 1.8rem;
+    .process header a {
+      width: 0.8rem;
+      height: 1.2rem;
+      display: block;
       margin-left: 1rem;
       margin-right: 1.5rem; }
-    .process header .search {
-      width: 450%;
-      height: 2.5rem;
-      display: flex;
-      align-items: center; }
-      .process header .search input {
-        width: 70%;
-        height: 1.4rem;
-        border: #f00 1px solid;
-        outline: none;
-        display: block;
-        border-radius: 6px 0 0 6px;
-        text-indent: .4rem;
-        background: rgba(255, 255, 255, 0.36); }
-      .process header .search button {
-        width: 20%;
-        height: 1.4rem;
-        border: none;
-        outline: none;
-        background: red;
-        display: block;
-        color: #fff;
-        border-radius: 0 6px 6px 0; }
+      .process header a img {
+        width: 100%;
+        height: 100%; }
+    .process header span {
+      display: block;
+      font-size: 1.15rem;
+      text-align: center;
+      margin-left: 20%; }
   .process .banner {
     width: 100%;
     height: 10rem; }
@@ -830,6 +736,152 @@ html, body {
     padding: 0.5rem 0.125rem 0 0.125rem;
     margin: 0rem 0 2.5rem 0; }
     .process .information h6 {
+      text-align: center;
+      font-weight: normal;
+      margin-top: 0.5rem;
+      word-wrap: break-word; }
+
+.news {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: #eee; }
+  .news header {
+    width: 100%;
+    height: 2.5rem;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    z-index: 99; }
+    .news header a {
+      width: 0.8rem;
+      height: 1.2rem;
+      display: block;
+      margin-left: 1rem;
+      margin-right: 1.5rem; }
+      .news header a img {
+        width: 100%;
+        height: 100%; }
+    .news header span {
+      display: block;
+      font-size: 1.15rem;
+      text-align: center;
+      margin-left: 20%; }
+  .news .bug {
+    width: 100%;
+    height: auto;
+    padding-bottom: 1.25rem;
+    background: #fff;
+    padding-top: 0.25rem; }
+    .news .bug h5 {
+      width: 96%;
+      margin: auto;
+      height: 1.75rem;
+      background: #ccc6c6;
+      color: #000;
+      line-height: 1.75rem;
+      text-indent: 1em;
+      margin-top: 0.25rem; }
+    .news .bug span {
+      width: 96%;
+      margin: auto;
+      height: 3rem;
+      border-bottom: 1px dotted #666;
+      display: block;
+      background: #fff;
+      line-height: 3.25rem;
+      text-indent: 1em;
+      font-size: 0.85rem; }
+    .news .bug a {
+      width: 96%;
+      height: 3rem;
+      margin: auto;
+      border-bottom: 1px dotted #666;
+      display: block;
+      background: #fff;
+      line-height: 3.25rem;
+      text-indent: 1em;
+      font-size: 0.85rem;
+      color: #000; }
+  .news .information {
+    width: 100%;
+    height: 6.5rem;
+    background: #eee;
+    padding: 0.5rem 0.125rem 0 0.125rem;
+    margin: 0rem 0 2.5rem 0; }
+    .news .information h6 {
+      text-align: center;
+      font-weight: normal;
+      margin-top: 0.5rem;
+      word-wrap: break-word; }
+
+.news_one {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: #eee; }
+  .news_one header {
+    width: 100%;
+    height: 2.5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    z-index: 99; }
+    .news_one header a {
+      width: 0.8rem;
+      height: 1.2rem;
+      display: block;
+      margin-left: 1rem;
+      margin-right: 1.5rem; }
+      .news_one header a img {
+        width: 100%;
+        height: 100%; }
+    .news_one header span {
+      display: block;
+      font-size: 1.15rem;
+      text-align: center;
+      margin-left: 20%; }
+  .news_one .box {
+    width: 100%;
+    height: auto;
+    padding: 0.75rem 0.5rem;
+    background: #fff; }
+    .news_one .box h4 {
+      text-align: center;
+      display: block;
+      height: auto;
+      width: 100%;
+      margin-bottom: 1.25rem; }
+    .news_one .box i {
+      font-size: 0.625rem;
+      font-style: normal;
+      display: block;
+      height: auto;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 0.75rem; }
+    .news_one .box span {
+      text-indent: 2em;
+      font-size: 0.75rem;
+      display: block; }
+    .news_one .box img {
+      width: 100%;
+      margin: 0.5rem 0; }
+  .news_one .information {
+    width: 100%;
+    height: 6.5rem;
+    background: #eee;
+    padding: 0.5rem 0.125rem 0 0.125rem;
+    margin: 0rem 0 2.5rem 0; }
+    .news_one .information h6 {
       text-align: center;
       font-weight: normal;
       margin-top: 0.5rem;

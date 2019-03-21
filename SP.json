@@ -1,0 +1,56 @@
+train(
+{
+	"a":[
+		{    "optionKey":"1",
+            "img":"./img/img/2.jpg",
+            "name":"长生普君享",
+            "price":"30元/箱",
+            "place": "南阳"
+        },
+        {    "optionKey":"2",
+            "img":"./img/img/7.jpg",
+            "name":"窖龄酒",
+            "price":"30元/箱",
+            "place": "南阳"
+        },{    "optionKey":"3",
+            "img":"./img/img/8.jpg",
+            "name":"厚德天下",
+            "price":"30元/箱",
+            "place": "南阳"
+        },
+        {    "optionKey":"4",
+            "img":"./img/img/9.jpg",
+            "name":"长城干红葡萄酒2",
+            "price":"30元/箱",
+            "place": "南阳"
+        }
+	],
+	"b":[
+		
+	],
+	"c":[
+		
+	],
+	"d":[
+		{    "optionKey":"5",
+            "img":"./img/img/17.jpg",
+            "name":"半球压力锅",
+            "price":"30元/箱",
+            "place": "南阳"
+        },
+        {    "optionKey":"6",
+            "img":"./img/img/3.jpg",
+            "name":"净水器",
+            "price":"30元/箱",
+            "place": "南阳"
+        },
+	],
+	"e":[
+	
+	],
+	"f":[
+	
+	]
+}
+)
+
