@@ -272,7 +272,7 @@ html, body {
       overflow: hidden; }
       .profile .text .three-text dl {
         width: 48%;
-        height: 6.25rem;
+        padding-bottom: 0.5rem;
         float: left;
         margin-right: 4%;
         margin-bottom: 0.875rem;
