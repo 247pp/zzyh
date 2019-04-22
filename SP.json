@@ -1,56 +1,629 @@
 train(
 {
-	"a":[
-		{    "optionKey":"1",
-            "img":"./img/img/2.jpg",
-            "name":"长生普君享",
-            "price":"30元/箱",
-            "place": "南阳"
+    "a": [
+        {
+            "optionKey": "1",
+            "img": "./img/img/yinliao/junxiang.jpg",
+            "name": "长生普君享",
         },
-        {    "optionKey":"2",
-            "img":"./img/img/7.jpg",
-            "name":"窖龄酒",
-            "price":"30元/箱",
-            "place": "南阳"
-        },{    "optionKey":"3",
-            "img":"./img/img/8.jpg",
-            "name":"厚德天下",
-            "price":"30元/箱",
-            "place": "南阳"
+        {
+            "optionKey": "2",
+            "img": "./img/img/yinliao/jiaorong.jpg",
+            "name": "窖龄酒",
         },
-        {    "optionKey":"4",
-            "img":"./img/img/9.jpg",
-            "name":"长城干红葡萄酒2",
-            "price":"30元/箱",
-            "place": "南阳"
+        {
+            "optionKey": "3",
+            "img": "./img/img/yinliao/houdetianxia.jpg",
+            "name": "厚德天下",
+        },
+        {
+            "optionKey": "4",
+            "img": "./img/img/yinliao/dukang.jpg",
+            "name": "杜康窖藏",
+        },
+        {
+            "optionKey": "5",
+            "img": "./img/img/yinliao/caoludui.jpg",
+            "name": "草庐对",
+        },
+        {
+            "optionKey": "6",
+            "img": "./img/img/yinliao/danjianglian.jpg",
+            "name": "丹江恋35℃",
+        },
+        {
+            "optionKey": "7",
+            "img": "./img/img/yinliao/danjiangmeng.jpg",
+            "name": "丹江梦35℃",
+        },
+        {
+            "optionKey": "8",
+            "img": "./img/img/yinliao/danjiangqing.jpg",
+            "name": "丹江情35℃",
+        },
+        {
+            "optionKey": "9",
+            "img": "./img/img/yinliao/feihushan.jpg",
+            "name": "灵芝飞虎山",
+        },
+        {
+            "optionKey": "10",
+            "img": "./img/img/yinliao/feitianbulao.jpg",
+            "name": "飞天不老酒（1968）",
+        },
+        {
+            "optionKey": "11",
+            "img": "./img/img/yinliao/guojiang.jpg",
+            "name": "国酱",
+        },
+        {
+            "optionKey": "12",
+            "img": "./img/img/yinliao/jiannanlaoqiao.jpg",
+            "name": "剑南老窖",
+        },
+        {
+            "optionKey": "13",
+            "img": "./img/img/yinliao/jinshangtianhua.jpg",
+            "name": "锦上添花52℃",
+        },
+        {
+            "optionKey": "14",
+            "img": "./img/img/yinliao/kailuxianfeng.jpg",
+            "name": "开路先锋",
+        },
+        {
+            "optionKey": "15",
+            "img": "./img/img/yinliao/kujqiao1.jpg",
+            "name": "仲景苦荞酒金荞42℃",
+        },
+        {
+            "optionKey": "16",
+            "img": "./img/img/yinliao/kuqiao2.jpg",
+            "name": "仲景苦荞酒小瓶装42℃",
+        },
+        {
+            "optionKey": "17",
+            "img": "./img/img/yinliao/kuqiao3.jpg",
+            "name": "仲景苦荞酒黑荞42℃",
+        },
+        {
+            "optionKey": "18",
+            "img": "./img/img/yinliao/kuqiao4.jpg",
+            "name": "仲景苦荞酒42℃",
+        },
+        {
+            "optionKey": "19",
+            "img": "./img/img/yinliao/lancainvmao2.jpg",
+            "name": "郎才女貌*幸福一生",
+        },
+        {
+            "optionKey": "20",
+            "img": "./img/img/yinliao/langcainvmao.jpg",
+            "name": "郎才女貌*钟爱一生",
+        },
+        {
+            "optionKey": "21",
+            "img": "./img/img/yinliao/mijianchenniang.jpg",
+            "name": "密鉴陈酿",
+        },
+        {
+            "optionKey": "22",
+            "img": "./img/img/yinliao/sanguoyinxiang.jpg",
+            "name": "三国印象",
+        },
+        {
+            "optionKey": "23",
+            "img": "./img/img/yinliao/shedian.jpg",
+            "name": "赊店南阳市委招待酒",
+        },
+        {
+            "optionKey": "24",
+            "img": "./img/img/yinliao/shedian2.jpg",
+            "name": "中国赊店鉴赏级52℃",
+        },
+        {
+            "optionKey": "25",
+            "img": "./img/img/yinliao/tuopai.jpg",
+            "name": "沱牌20年经典窖藏",
+        },
+        {
+            "optionKey": "26",
+            "img": "./img/img/yinliao/woulong.jpg",
+            "name": "卧龙玉液海韵",
+        },
+        {
+            "optionKey": "27",
+            "img": "./img/img/yinliao/woulong2.jpg",
+            "name": "卧龙玉液祥韵",
+        },
+        {
+            "optionKey": "28",
+            "img": "./img/img/yinliao/woulong3.jpg",
+            "name": "卧龙玉液五星银",
+        },
+        {
+            "optionKey": "29",
+            "img": "./img/img/yinliao/wujiajiu2.jpg",
+            "name": "吴家酒",
+        },
+        {
+            "optionKey": "30",
+            "img": "./img/img/yinliao/wuliangchen.jpg",
+            "name": "五粮陈壹号",
+        },
+        {
+            "optionKey": "31",
+            "img": "./img/img/yinliao/wwujiajiu.jpg",
+            "name": "泸州 吴家酒庄定制酒",
+        },
+        {
+            "optionKey": "32",
+            "img": "./img/img/yinliao/xiaolanhua.jpg",
+            "name": "小兰花",
+        },
+        {
+            "optionKey": "33",
+            "img": "./img/img/yinliao/xifengjiu.jpg",
+            "name": "西凤酒 华山论剑",
+        },
+        {
+            "optionKey": "34",
+            "img": "./img/img/yinliao/yuanjiuyihao.jpg",
+            "name": "原酒一号升级版50℃",
+        },
+        {
+            "optionKey": "35",
+            "img": "./img/img/yinliao/yuanqinghua.jpg",
+            "name": "赊店老酒 元青花",
+        },
+        {
+            "optionKey": "36",
+            "img": "./img/img/yinliao/yuanqinghua5jin.jpg",
+            "name": "赊店老酒 元青花五斤装",
+        },
+        {
+            "optionKey": "37",
+            "img": "./img/img/yinliao/yuanqinghua10.jpg",
+            "name": "赊店 元青花10年",
+        },
+        {
+            "optionKey": "38",
+            "img": "./img/img/yinliao/yuanqinghua15.jpg",
+            "name": "赊店 元青花15年",
+        },
+        {
+            "optionKey": "39",
+            "img": "./img/img/yinliao/yuanqinghua20.jpg",
+            "name": "赊店 元青花20年",
+        },
+        {
+            "optionKey": "40",
+            "img": "./img/img/yinliao/yuanqinghuamuhe.jpg",
+            "name": "赊店 元青花手提木盒",
+        },
+        {
+            "optionKey": "41",
+            "img": "./img/img/yinliao/zhikong1.jpg",
+            "name": "直控品鉴 42℃",
+        },
+        {
+            "optionKey": "42",
+            "img": "./img/img/yinliao/zhikong2.jpg",
+            "name": "直控品鉴 52℃",
+        },
+        {
+            "optionKey": "43",
+            "img": "./img/img/yinliao/hongjiu1.jpg",
+            "name": "琥珀光维奇野生猕猴桃酒",
+        },
+        {
+            "optionKey": "44",
+            "img": "./img/img/yinliao/hongjiu2.jpg",
+            "name": "琥珀光维奇果味酒",
+        },
+        {
+            "optionKey": "45",
+            "img": "./img/img/yinliao/hongjiu3.jpg",
+            "name": "长城干红葡萄酒",
+        },
+        {
+            "optionKey": "46",
+            "img": "./img/img/yinliao/hongjiu4.jpg",
+            "name": "卡斯特维爵",
+        },
+        {
+            "optionKey": "47",
+            "img": "./img/img/yinliao/hongjiu5.jpg",
+            "name": "哪吒山雅士野生猕猴桃干酒",
+        },
+        {
+            "optionKey": "48",
+            "img": "./img/img/yinliao/hongjiu6.jpg",
+            "name": "哪吒山琥珀光野生猕猴桃酒",
+        },
+        {
+            "optionKey": "49",
+            "img": "./img/img/yinliao/hongjiu7.jpg",
+            "name": "哪吒山野生猕猴桃酒12℃",
+        },   {
+            "optionKey": "50",
+            "img": "./img/img/yinliao/hongjiu8.jpg",
+            "name": "哪吒山琥珀光野生猕猴桃酒（特选）",
+        },   {
+            "optionKey": "51",
+            "img": "./img/img/yinliao/hongniu.jpg",
+            "name": "红牛",
+        },   {
+            "optionKey": "52",
+            "img": "./img/img/yinliao/jiaduobao.jpg",
+            "name": "正吉凉茶",
+        },   {
+            "optionKey": "53",
+            "img": "./img/img/yinliao/ranlishi.jpg",
+            "name": "燃力士阿萨伊果风味",
+        },   {
+            "optionKey": "54",
+            "img": "./img/img/yinliao/ranlishi2.jpg",
+            "name": "燃力士可乐风味",
+        },   {
+            "optionKey": "55",
+            "img": "./img/img/yinliao/wahaha1.jpg",
+            "name": "娃哈哈营养快线红枣枸杞味",
+        },   {
+            "optionKey": "56",
+            "img": "./img/img/yinliao/wahaha2.jpg",
+            "name": "娃哈哈营养快线草莓味",
+        },   {
+            "optionKey": "57",
+            "img": "./img/img/yinliao/wahaha3.jpg",
+            "name": "娃哈哈C柠檬",
+        },
+        {
+            "optionKey": "58",
+            "img": "./img/img/yinliao/wahaha4.jpg",
+            "name": "娃哈哈C蜜桃",
+        }, {
+            "optionKey": "59",
+            "img": "./img/img/yinliao/wahaha5.jpg",
+            "name": "娃哈哈非常柠檬2.5L",
+        }, {
+            "optionKey": "60",
+            "img": "./img/img/yinliao/wahaha6.jpg",
+            "name": "娃哈哈非常可乐2.5L",
+        }, {
+            "optionKey": "61",
+            "img": "./img/img/yinliao/wahaha8.jpg",
+            "name": "娃哈哈引用纯净水",
+        }, {
+            "optionKey": "62",
+            "img": "./img/img/yinliao/wahaha9.jpg",
+            "name": "娃哈哈乳酸菌饮品原味",
+        }, {
+            "optionKey": "63",
+            "img": "./img/img/yinliao/wahaha10.jpg",
+            "name": "娃哈哈御粥坊八宝粥",
+        }, {
+            "optionKey": "64",
+            "img": "./img/img/yinliao/wahaha7.jpg",
+            "name": "娃哈哈炫彩快线原味",
+        },
+        {
+            "optionKey": "65",
+            "img": "./img/img/yinliao/wahaha12.jpg",
+            "name": "娃哈哈炫彩快线香草味",
+        },
+        {
+            "optionKey": "66",
+            "img": "./img/img/yinliao/wahaha11.jpg",
+            "name": "娃哈哈乳酸菌饮品礼盒",
+        },
+        {
+            "optionKey": "67",
+            "img": "./img/img/yinliao/wahaha13.jpg",
+            "name": "娃哈哈蜜蜂枸杞植物饮料",
+        },
+        {
+            "optionKey": "68",
+            "img": "./img/img/yinliao/wahaha14.jpg",
+            "name": "娃哈哈花生牛奶",
+        },
+        {
+            "optionKey": "69",
+            "img": "./img/img/yinliao/wahaha15.jpg",
+            "name": "格瓦斯麦芽汁1.25L",
+        },
+        {
+            "optionKey": "70",
+            "img": "./img/img/yinliao/wahaha16.jpg",
+            "name": "娃哈哈纯净水4.5L",
+        },
+        {
+            "optionKey": "71",
+            "img": "./img/img/yinliao/xiaosu.jpg",
+            "name": "恒利康蓝莓酵素饮料310ml",
+        },
+        {
+            "optionKey": "72",
+            "img": "./img/img/yinliao/xiaosu2.jpg",
+            "name": "恒利康2019果蔬酵素330ml",
+        },
+        {
+            "optionKey": "73",
+            "img": "./img/img/yinliao/xiaosu3.jpg",
+            "name": "恒利康益生菌2g",
+        },
+        {
+            "optionKey": "74",
+            "img": "./img/img/yinliao/xiaosu4.jpg",
+            "name": "恒利康酵素750ml",
+        },
+    ],
+    "d": [
+        {
+            "optionKey": "1",
+            "img": "./img/img/yinliao/aicao.jpg",
+            "name": "中药香身艾疗毯",
+        },  {
+            "optionKey": "2",
+            "img": "./img/img/yinliao/cansibei.jpg",
+            "name": "阿房宫睡眠皇后蚕丝被",
+        },  {
+            "optionKey": "3",
+            "img": "./img/img/yinliao/diancilv.jpg",
+            "name": "威王 电磁炉",
+        },  {
+            "optionKey": "4",
+            "img": "./img/img/yinliao/dianpingdnag.jpg",
+            "name": "尚朋堂 电饼铛",
+        },{
+            "optionKey": "5",
+            "img": "./img/img/yinliao/gangqin.jpg",
+            "name": "钢琴",
+        },{
+            "optionKey": "6",
+            "img": "./img/img/yinliao/jingshuiji.jpg",
+            "name": "净水机",
+        },{
+            "optionKey": "7",
+            "img": "./img/img/yinliao/ranqizao1.jpg",
+            "name": "燃气灶",
+        },{
+            "optionKey": "8",
+            "img": "./img/img/yinliao/shuizhang2.jpg",
+            "name": "睡帐",
+        },{
+            "optionKey": "9",
+            "img": "./img/img/yinliao/sijiantao1.jpg",
+            "name": "梦洁印花四件套",
+        },{
+            "optionKey": "10",
+            "img": "./img/img/yinliao/dianpingdnag.jpg",
+            "name": "尚朋堂 电饼铛",
+        },{
+            "optionKey": "11",
+            "img": "./img/img/bike/anmoyi.jpg",
+            "name": "朗森 按摩椅",
+        },
+    ],
+    "c": [
+        {
+            "optionKey": "1",
+            "img": "./img/img/bike/1.jpg",
+            "name": "骓驰书比001彩圈多条",
+        },
+        {
+            "optionKey": "2",
+            "img": "./img/img/bike/2.jpg",
+            "name": "骓驰书比彩圈少条",
+        },
+        {
+            "optionKey": "3",
+            "img": "./img/img/bike/3.jpg",
+            "name": "赛克林 CYCLION",
+        },
+        {
+            "optionKey": "4",
+            "img": "./img/img/bike/4.jpg",
+            "name": "骓驰J100",
+        },
+        {
+            "optionKey": "5",
+            "img": "./img/img/bike/5.jpg",
+            "name": "骓驰J500",
+        },
+        {
+            "optionKey": "6",
+            "img": "./img/img/bike/6.jpg",
+            "name": "骓驰 追风3",
+        },
+        {
+            "optionKey": "7",
+            "img": "./img/img/bike/7.jpg",
+            "name": "骓驰 650III",
+        },
+        {
+            "optionKey": "8",
+            "img": "./img/img/bike/8.jpg",
+            "name": "骓驰 650I",
+        },
+        {
+            "optionKey": "9",
+            "img": "./img/img/bike/9.jpg",
+            "name": "KeLYS 90",
+        },
+        {
+            "optionKey": "10",
+            "img": "./img/img/bike/10.jpg",
+            "name": "骓驰 F300",
+        },
+        {
+            "optionKey": "11",
+            "img": "./img/img/bike/11.jpg",
+            "name": "骓驰 S120",
+        },
+
+    ],
+    "b": [
+        {
+            "optionKey": "1",
+            "img": "./img/img/yinliao/yagao.jpg",
+            "name": "牙膏",
+        },
+        {
+            "optionKey": "2",
+            "img": "./img/img/yinliao/xiangzao.jpg",
+            "name": "丹洁丽香皂",
+        },
+        {
+            "optionKey": "3",
+            "img": "./img/img/yinliao/neiku.jpg",
+            "name": "平角内裤(男士)",
         }
-	],
-	"b":[
-		
-	],
-	"c":[
-		
-	],
-	"d":[
-		{    "optionKey":"5",
-            "img":"./img/img/17.jpg",
-            "name":"半球压力锅",
-            "price":"30元/箱",
-            "place": "南阳"
+    ],
+    "e": [
+        {
+            "optionKey": "1",
+            "img": "./img/img/yu/yu1.jpg",
+            "name": "乐在其中",
         },
-        {    "optionKey":"6",
-            "img":"./img/img/3.jpg",
-            "name":"净水器",
-            "price":"30元/箱",
-            "place": "南阳"
+        {
+            "optionKey": "2",
+            "img": "./img/img/yu/yu2.jpg",
+            "name": "指日高升",
         },
-	],
-	"e":[
-	
-	],
-	"f":[
-	
-	]
+        {
+            "optionKey": "3",
+            "img": "./img/img/yu/yu3.jpg",
+            "name": "仙鹤摆件",
+        },
+        {
+            "optionKey": "4",
+            "img": "./img/img/yu/yu4.jpg",
+            "name": "指日高升",
+        },
+        {
+            "optionKey": "5",
+            "img": "./img/img/yu/yu5.jpg",
+            "name": "喜相逢摆件",
+        },
+        {
+            "optionKey": "6",
+            "img": "./img/img/yu/yu6.jpg",
+            "name": "乐在其中",
+        },
+        {
+            "optionKey": "7",
+            "img": "./img/img/yu/yu7.jpg",
+            "name": "喜相逢摆件",
+        },
+        {
+            "optionKey": "8",
+            "img": "./img/img/yu/yu8.jpg",
+            "name": "乐在其中",
+        },
+        {
+            "optionKey": "9",
+            "img": "./img/img/yu/yu9.jpg",
+            "name": "粉白菜摆件",
+        },
+        {
+            "optionKey": "10",
+            "img": "./img/img/yu/yu10.jpg",
+            "name": "乐在其中",
+        },
+        {
+            "optionKey": "11",
+            "img": "./img/img/yu/yu11.jpg",
+            "name": "翠玉观音摆件",
+        },
+        {
+            "optionKey": "12",
+            "img": "./img/img/yu/yu12.jpg",
+            "name": "绿白 乐在其中",
+        }, 
+        {
+            "optionKey": "13",
+            "img": "./img/img/yu/yu13.jpg",
+            "name": "蜀色 乐在其中",
+        },
+        {
+            "optionKey": "14",
+            "img": "./img/img/yu/yu14.jpg",
+            "name": "（江大师） 人生五味",
+        },
+        {
+            "optionKey": "15",
+            "img": "./img/img/yu/yu15.jpg",
+            "name": "（老二） 意境大山摆件",
+        },
+        {
+            "optionKey": "16",
+            "img": "./img/img/yu/yu16.jpg",
+            "name": "（江大师） 春意盎然",
+        },
+        {
+            "optionKey": "17",
+            "img": "./img/img/yu/yu17.jpg",
+            "name": "意境大山",
+        },
+        {
+            "optionKey": "18",
+            "img": "./img/img/yu/yu18.jpg",
+            "name": "硕果累累",
+        },
+        {
+            "optionKey": "19",
+            "img": "./img/img/yu/yu19.jpg",
+            "name": "十八罗汉",
+        },
+        {
+            "optionKey": "20",
+            "img": "./img/img/yu/yu20.jpg",
+            "name": "指日高升",
+        },
+    ],
+    "f": [
+        {
+            "optionKey": "1",
+            "img": "./img/img/bao/1.jpg",
+            "name": "女士包包",
+        },
+        {
+            "optionKey": "2",
+            "img": "./img/img/bao/2.jpg",
+            "name": "女士包包",
+        },
+          {
+            "optionKey": "3",
+            "img": "./img/img/bao/3.jpg",
+            "name": "女士包包",
+        },
+          {
+            "optionKey": "4",
+            "img": "./img/img/bao/4.jpg",
+            "name": "女士包包",
+        },
+          {
+            "optionKey": "5",
+            "img": "./img/img/bao/5.jpg",
+            "name": "女士包包",
+        },
+        {
+            "optionKey": "6",
+            "img": "./img/img/bao/6.jpg",
+            "name": "男士包",
+        },
+        {
+            "optionKey": "7",
+            "img": "./img/img/bao/7.jpg",
+            "name": "男士手提包",
+        },
+            {
+            "optionKey": "8",
+            "img": "./img/img/bao/8.jpg",
+            "name": "男士公务手提包",
+        }
+    ]
 }
 )
 

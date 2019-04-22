@@ -118,25 +118,18 @@ html, body {
       overflow: hidden; }
       #zyyh section #center .commodity {
         width: 50%;
-        height: 10rem;
+        height: 11.25rem;
         float: left;
         padding-top: 0.625rem;
         border-bottom: 1px solid #cccccc; }
         #zyyh section #center .commodity img {
           width: 90%;
-          height: 6.25rem;
+          height: 8.75rem;
           margin: auto;
           display: block; }
         #zyyh section #center .commodity h5 {
           text-align: center;
           margin-top: 0.25rem; }
-        #zyyh section #center .commodity .price {
-          font-size: 0.7rem;
-          color: #f00;
-          margin-top: 0.25rem;
-          text-align: center; }
-        #zyyh section #center .commodity:nth-child(odd) {
-          border-right: 1px solid #cccccc; }
   #zyyh .information {
     width: 100%;
     height: 6.5rem;
@@ -279,7 +272,7 @@ html, body {
         border-bottom: 0.05rem solid #eee; }
         .profile .text .three-text dl dt {
           width: 100%;
-          height: 5.5rem; }
+          height: 7rem; }
           .profile .text .three-text dl dt img {
             width: 100%;
             height: 100%; }
@@ -420,7 +413,8 @@ html, body {
       width: 70%;
       height: auto;
       background: #fff;
-      float: left; }
+      float: left;
+      overflow: hidden; }
       .barter section .content .content_c {
         width: 100%;
         height: 100%;
@@ -433,7 +427,7 @@ html, body {
           float: left; }
           .barter section .content .content_c dl img {
             width: 100%;
-            height: 4.5rem;
+            height: 6rem;
             margin-top: 0.5rem; }
           .barter section .content .content_c dl dt {
             width: 100%;
@@ -725,7 +719,8 @@ html, body {
         background: peru;
         color: #fff;
         line-height: 1.75rem;
-        text-indent: 1em; }
+        text-indent: 1em;
+        margin-bottom: 0.125rem; }
         .process section .prices p:nth-child(odd) {
           margin-right: 2%;
           margin-left: 1%; }
@@ -871,7 +866,8 @@ html, body {
     .news_one .box span {
       text-indent: 2em;
       font-size: 0.75rem;
-      display: block; }
+      display: block;
+      margin-bottom: 0.5rem; }
     .news_one .box img {
       width: 100%;
       margin: 0.5rem 0; }

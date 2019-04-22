@@ -17,7 +17,7 @@
     <div class="barter">
         <div style="width:100%;height:2.5rem;background: #fff;margin-bottom: .3rem;"></div>
         <header>
-            <img src="./img/logo.png" alt="">
+            <img src="./img/sp/logo.png" alt="">
             <div class="search">
                 <input type="search" class="searchInput" />
                 <button class="searchBtn">搜索</button>
@@ -26,11 +26,11 @@
         <section>
             <div class="list">
                 <p class="list_c select" listType="a">酒水/饮料/茶叶</p>
-                <p class="list_c" listType="b">化妆/美容/保健</p>
-                <p class="list_c" listType="c">餐饮/住宿/旅游</p>
+                <p class="list_c" listType="b">化妆/洗化/生活</p>
+                <p class="list_c" listType="c">出行/交通/车辆</p>
                 <p class="list_c" listType="d">家具/家电/器材</p>
                 <p class="list_c" listType="e">珠宝/玉器/工艺</p>
-                <p class="list_c" listType="f">特产/副食/礼品</p>
+                <p class="list_c" listType="f">服饰/鞋靴/箱包</p>
             </div>
             <div class="content">
                 <div class="content_c idx_show">
@@ -39,19 +39,19 @@
         </section>
         <footer>
                 <a href="./index.html" class="footer">
-                    <img src="./img/footer_03.png" />
+                    <img src="./img/sp/footer_03.png" />
                     <p>首页</p>
                 </a>
                 <a href="./barter.html" class="footer active">
-                    <img src="img/footer_05.png" />
+                    <img src="img/sp/footer_05.png" />
                     <p>易货商品</p>
                 </a>
                 <a href="./want.html" class="footer">
-                    <img src="img/footer_07.png" />
+                    <img src="img/sp/footer_07.png" />
                     <p>我要易货</p>
                 </a>
                 <a href="./alliance.html" class="footer">
-                    <img src="img/footer_09.png" />
+                    <img src="img/sp/footer_09.png" />
                     <p>加盟申请</p>
                 </a>
             </footer>
@@ -73,7 +73,7 @@
             html+='<dl>';
             html+='<img src='+obj.img+' onclick="XQ('+obj.optionKey+')"/>';
             html+='<dt>'+obj.name+'</dt>';
-            html+='<dd>'+obj.price+'</dd>';
+            // html+='<dd>'+obj.price+'</dd>';
             html+='</dl>';
         })
         $('.content_c').append(html)
@@ -100,7 +100,7 @@
             html+='<dl>';
             html+='<img src='+item.img+' onclick="XQ('+item.optionKey+')"/>';
             html+='<dt>'+item.name+'</dt>';
-            html+='<dd>'+item.price+'</dd>';
+            // html+='<dd>'+item.price+'</dd>';
             html+='</dl>';
         })
         $('.idx_show').html(html)
@@ -111,7 +111,7 @@
             html+='<dl>';
             html+='<img src='+obj.img+' onclick="XQ('+obj.optionKey+')"/>';
             html+='<dt>'+obj.name+'</dt>';
-            html+='<dd>'+obj.price+'</dd>';
+            // html+='<dd>'+obj.price+'</dd>';
             html+='</dl>';
         })
         $('.idx_show').append(html)
